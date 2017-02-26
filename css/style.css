@@ -1,0 +1,19 @@
+h2  {font-size:  18px;  padding:  0px;  margin:  0px;  margin-top:  10px;} 
+h2.komentarze  {font-size:  14px;  margin:  0px;  margin-top:  10px; 
+margin-bottom:  10px;  border-bottom:  solid   1px  #000000;  font-weight:  bold;} 
+h2.admin  {font-size: 14px;  margin:  0px;  margin-top:  10px;  margin-bottom: 
+10px;  border-bottom:  solid   1px  #000000;  font-weight:  bold;} 
+p.data  {font-size: 12px;  padding:  0px;  margin:  0px;  font-style:  italic; }  
+p.tresc  {font-size: 12px;  padding:  5px;  margin:  5px;} 
+p.cena{font-size: 24px; font-weight:  bold;}
+p.kategoria  {font-size:  12px;  padding:  0px;  margin:  0px;} 
+h3  {font-size:  14px;  padding:  0px;  margin:  0px;  margin-top:  10px; 
+font-weight:  bold;}
+p.komentarzdata  {font-size:  12px;  padding:  0px;  margin:  0px;  font-style: 
+italic; }
+p.komentarztresc  {font-size:  12px;  padding:  5px;  margin:  5px;}
+div.pozytywnie  {padding:  10px;  margin:  10px;  text-align:  center;  color: #336699;  border:  solid   1px  #336699;}
+div.zle   {padding:  10px;  margin:  10px;  text-align:  center  color; border:  solid   1px  #600000;}
+div#content  table  tr  th  {background-color:  #336699;  color:  #ffffff; }  
+td.rowl  {background-color:  #ffffff; }  
+td.row2{background-color:  #efefef;}

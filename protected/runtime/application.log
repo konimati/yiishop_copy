@@ -1,0 +1,2024 @@
+2017/02/23 19:42:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yiiodzwyki'' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yiishop\protected\models\ProduktyModel.php(46): CModule->__get('db')
+#5 C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php(13): ProduktyModel->PobierzProdukty()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiishop/
+---
+2017/02/23 19:43:22 [error] [php] Undefined variable: ModelWpisy (C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php:19)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (19)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 19:44:41 [error] [php] Undefined index: data_dodania (C:\xampp\htdocs\yiishop\protected\views\sklep\index.php:5)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SklepController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SklepController->renderPartial()
+#2 C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php(26): SklepController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/
+in C:\xampp\htdocs\yiishop\protected\views\sklep\index.php (5)
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (26)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 19:53:06 [error] [php] Undefined index: data_dodania (C:\xampp\htdocs\yiishop\protected\views\sklep\index.php:5)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SklepController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SklepController->renderPartial()
+#2 C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php(28): SklepController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/
+in C:\xampp\htdocs\yiishop\protected\views\sklep\index.php (5)
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (28)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 19:55:13 [error] [php] Undefined index: data_dodania (C:\xampp\htdocs\yiishop\protected\views\sklep\index.php:6)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SklepController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SklepController->renderPartial()
+#2 C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php(28): SklepController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/
+in C:\xampp\htdocs\yiishop\protected\views\sklep\index.php (6)
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (28)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 20:01:26 [error] [php] Undefined index: data_dodania (C:\xampp\htdocs\yiishop\protected\views\sklep\index.php:5)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SklepController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SklepController->renderPartial()
+#2 C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php(27): SklepController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/sklep/
+in C:\xampp\htdocs\yiishop\protected\views\sklep\index.php (5)
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (27)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 20:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "blog/wpis".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/wpis')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/blog/wpis/1
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index?page=2
+---
+2017/02/23 20:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "blog/wpis".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/wpis')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/blog/wpis/4
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 20:27:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "produkt/view".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('produkt/view')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/produkt/4
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 20:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "produkt/view".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('produkt/view')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/produkt/4
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 20:29:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "produkt/view".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('produkt/view')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/produkt/3
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 20:41:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "produkt/view".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('produkt/view')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/produkt/4
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 20:47:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "produkt/view".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('produkt/view')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/produkt/4
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 20:47:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "produkt".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('produkt')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/produkt
+---
+2017/02/23 20:50:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "produkt".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('produkt')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/produkt
+---
+2017/02/23 20:50:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "produkt/view".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('produkt/view')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/produkt/4
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 20:51:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "produkt/view".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('produkt/view')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/produkt/4
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 22:13:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "view".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/view')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop/index.php/sklep/4
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 22:13:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "view".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/view')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop/index.php/sklep/4
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 22:13:56 [error] [php] Undefined index: kategoria_nazwa (C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/sklep/produkt/4
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (39)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 22:17:10 [error] [php] Undefined index: kategoria_nazwa (C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/sklep/produkt/4
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (39)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 22:17:16 [error] [php] Undefined index: kategoria_nazwa (C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/sklep/produkt/4
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (39)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 22:17:18 [error] [php] Undefined index: kategoria_nazwa (C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/sklep/produkt/4
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (39)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 22:17:27 [error] [php] Undefined index: kategoria_nazwa (C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/sklep/produkt/4
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (39)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 22:17:28 [error] [php] Undefined index: kategoria_nazwa (C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/sklep/produkt/4
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (39)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 22:17:38 [error] [php] Undefined index: kategoria_nazwa (C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/sklep/produkt/4
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (39)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 22:17:40 [error] [php] Undefined index: kategoria_nazwa (C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/sklep/produkt/4
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (39)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 22:18:12 [error] [php] Undefined index: kategoria_nazwa (C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/sklep/produkt/4
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (39)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 22:19:54 [error] [php] Undefined index: data_dodania (C:\xampp\htdocs\yiishop\protected\views\sklep\produkt.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SklepController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SklepController->renderPartial()
+#2 C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php(48): SklepController->render()
+#3 unknown(0): SklepController->actionProdukt()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/sklep/produkt/4
+in C:\xampp\htdocs\yiishop\protected\views\sklep\produkt.php (10)
+in C:\xampp\htdocs\yiishop\protected\controllers\SklepController.php (48)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/23 22:27:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "kategorie".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('kategorie')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('kategorie')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/kategorie')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop/index.php/sklep/kategorie
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 22:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "rejestracja".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('rejestracja')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('rejestracja')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/rejestrac...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop/index.php/sklep/rejestracja
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 22:27:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "rejestracja".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('rejestracja')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('rejestracja')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/rejestrac...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop/index.php/sklep/rejestracja
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 22:30:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "logowanie".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('logowanie')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('logowanie')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/logowanie')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop/index.php/sklep/logowanie
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 22:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "kategorie".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('kategorie')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('kategorie')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/kategorie')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop/index.php/sklep/kategorie
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 22:58:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "logowanie".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('logowanie')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('logowanie')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/logowanie')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop/index.php/sklep/logowanie
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 22:58:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "logowanie".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('logowanie')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('logowanie')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/logowanie')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop/index.php/sklep/logowanie
+HTTP_REFERER=http://localhost/yiishop/index.php/sklep/index
+---
+2017/02/23 23:00:06 [error] [php] include(BlogUzytkownicy.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php(9): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): LogowanieController->actionIndex()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): LogowanieController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): LogowanieController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): LogowanieController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/logowanie
+in C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php (9)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/24 23:21:04 [error] [php] Undefined variable: ModelUzytkownicy (C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): LogowanieController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): LogowanieController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): LogowanieController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/logowanie
+in C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php (36)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/24 23:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "login".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/login
+---
+2017/02/24 23:22:08 [error] [system.db.CDbCommand] Wywołanie CDbCommand::fetchAll() nie powiodło się: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiiodzywki.users' doesn't exist. Wykonywana instrukcja SQL to: SHOW FULL COLUMNS FROM `users`.
+in C:\xampp\htdocs\yiishop\protected\controllers\UsersController.php (10)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/24 23:22:08 [error] [exception.CDbException] exception 'CDbException' with message 'Tabela "users" dla bieżącego rekordu klasy "Users" nie została znaleziona w bazie danych.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2387
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Users))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yiishop\protected\controllers\UsersController.php(10): CActiveRecord->__construct()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiishop/index.php/users
+---
+2017/02/24 23:22:48 [error] [exception.CException] exception 'CException' with message 'Właściwość "Users.username" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2729): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(Users), 'username')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(Users), 'username', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Users), 'username', Array)
+#5 C:\xampp\htdocs\yiishop\protected\views\users\index.php(17): CActiveForm->textField(Object(Users), 'username')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\xampp\htdocs\yiishop\protected\controllers\UsersController.php(30): CController->render('index', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiishop/index.php/users
+---
+2017/02/24 23:23:37 [error] [exception.CException] exception 'CException' with message 'Właściwość "Users.username" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2729): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(Users), 'username')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(Users), 'username', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Users), 'username', Array)
+#5 C:\xampp\htdocs\yiishop\protected\views\users\index.php(17): CActiveForm->textField(Object(Users), 'username')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\xampp\htdocs\yiishop\protected\controllers\UsersController.php(30): CController->render('index', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiishop/index.php/users
+---
+2017/02/24 23:23:38 [error] [exception.CException] exception 'CException' with message 'Właściwość "Users.username" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2729): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(Users), 'username')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(Users), 'username', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Users), 'username', Array)
+#5 C:\xampp\htdocs\yiishop\protected\views\users\index.php(17): CActiveForm->textField(Object(Users), 'username')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\xampp\htdocs\yiishop\protected\controllers\UsersController.php(30): CController->render('index', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiishop/index.php/users
+---
+2017/02/24 23:23:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "login".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/login
+---
+2017/02/24 23:23:43 [error] [exception.CException] exception 'CException' with message 'Właściwość "Users.username" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2729): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(Users), 'username')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(Users), 'username', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Users), 'username', Array)
+#5 C:\xampp\htdocs\yiishop\protected\views\users\index.php(17): CActiveForm->textField(Object(Users), 'username')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\xampp\htdocs\yiishop\protected\controllers\UsersController.php(30): CController->render('index', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiishop/index.php/users
+---
+2017/02/24 23:25:35 [error] [php] Undefined variable: ModelUzytkownicy (C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): LogowanieController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): LogowanieController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): LogowanieController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/logowanie
+in C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php (36)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/24 23:26:01 [error] [php] Undefined variable: ModelUzytkownicy (C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): LogowanieController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): LogowanieController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): LogowanieController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/logowanie
+in C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php (36)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/24 23:26:03 [error] [php] Undefined variable: ModelUzytkownicy (C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): LogowanieController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): LogowanieController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): LogowanieController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/logowanie
+in C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php (36)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/24 23:27:59 [error] [php] include(lenght.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\yii\framework\validators\CValidator.php(174): import()
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(287): createValidator()
+#4 C:\xampp\htdocs\yii\framework\base\CModel.php(260): UzytkownicyModel->createValidators()
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(304): UzytkownicyModel->getValidators()
+#6 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1514): UzytkownicyModel->isAttributeRequired()
+#7 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 C:\xampp\htdocs\yiishop\protected\views\logowanie\index.php(21): CActiveForm->labelEx()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): LogowanieController->renderInternal()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(869): LogowanieController->renderFile()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(782): LogowanieController->renderPartial()
+#13 C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php(39): LogowanieController->render()
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): LogowanieController->actionIndex()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(286): LogowanieController->runAction()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): LogowanieController->runActionWithFilters()
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): LogowanieController->run()
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/logowanie
+in C:\xampp\htdocs\yiishop\protected\views\logowanie\index.php (21)
+in C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php (39)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/24 23:28:45 [error] [exception.CException] exception 'CException' with message 'Właściwość "CStringValidator. max" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(177): CComponent->__set(' max', 150)
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(287): CValidator::createValidator('length', Object(UzytkownicyModel), 'login', Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(304): CModel->getValidators('uzytkownik_logi...')
+#4 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1514): CModel->isAttributeRequired('uzytkownik_logi...')
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(UzytkownicyModel), 'uzytkownik_logi...', Array)
+#6 C:\xampp\htdocs\yiishop\protected\views\logowanie\index.php(21): CActiveForm->labelEx(Object(UzytkownicyModel), 'uzytkownik_logi...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#11 C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php(39): CController->render('index', Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): LogowanieController->actionIndex()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logowanie')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiishop/index.php/logowanie
+HTTP_REFERER=http://localhost/yiishop/
+---
+2017/02/24 23:29:44 [error] [exception.CException] exception 'CException' with message 'Właściwość "CStringValidator. max" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(177): CComponent->__set(' max', 150)
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(287): CValidator::createValidator('length', Object(UzytkownicyModel), 'login', Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(304): CModel->getValidators('login')
+#4 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1514): CModel->isAttributeRequired('login')
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(UzytkownicyModel), 'login', Array)
+#6 C:\xampp\htdocs\yiishop\protected\views\logowanie\index.php(21): CActiveForm->labelEx(Object(UzytkownicyModel), 'login')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#11 C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php(39): CController->render('index', Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): LogowanieController->actionIndex()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logowanie')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiishop/index.php/logowanie
+HTTP_REFERER=http://localhost/yiishop/
+---
+2017/02/24 23:31:30 [error] [exception.CException] exception 'CException' with message 'Właściwość "CStringValidator. max" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(177): CComponent->__set(' max', 150)
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(287): CValidator::createValidator('length', Object(UzytkownicyModel), 'login', Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(304): CModel->getValidators('login')
+#4 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1514): CModel->isAttributeRequired('login')
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(UzytkownicyModel), 'login', Array)
+#6 C:\xampp\htdocs\yiishop\protected\views\logowanie\index.php(21): CActiveForm->labelEx(Object(UzytkownicyModel), 'login')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#11 C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php(39): CController->render('index', Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): LogowanieController->actionIndex()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logowanie')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiishop/index.php/logowanie
+HTTP_REFERER=http://localhost/yiishop/
+---
+2017/02/24 23:31:33 [error] [exception.CException] exception 'CException' with message 'Właściwość "CStringValidator. max" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(177): CComponent->__set(' max', 150)
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(287): CValidator::createValidator('length', Object(UzytkownicyModel), 'login', Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(304): CModel->getValidators('login')
+#4 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1514): CModel->isAttributeRequired('login')
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(UzytkownicyModel), 'login', Array)
+#6 C:\xampp\htdocs\yiishop\protected\views\logowanie\index.php(21): CActiveForm->labelEx(Object(UzytkownicyModel), 'login')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#11 C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php(39): CController->render('index', Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): LogowanieController->actionIndex()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logowanie')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiishop/index.php/logowanie
+HTTP_REFERER=http://localhost/yiishop/
+---
+2017/02/24 23:55:25 [error] [php] hash() expects at least 2 parameters, 0 given (C:\xampp\htdocs\yiishop\protected\models\UzytkownicyModel.php:59)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): LogowanieController->actionIndex()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): LogowanieController->runAction()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): LogowanieController->runActionWithFilters()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): LogowanieController->run()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/logowanie
+in C:\xampp\htdocs\yiishop\protected\models\UzytkownicyModel.php (59)
+in C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php (16)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/25 23:19:44 [error] [php] Undefined variable: UzytkownicyModel (C:\xampp\htdocs\yiishop\protected\models\UzytkownicyModel.php:61)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): LogowanieController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): LogowanieController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): LogowanieController->run()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/logowanie
+in C:\xampp\htdocs\yiishop\protected\models\UzytkownicyModel.php (61)
+in C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php (19)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/25 23:34:30 [error] [system.db.CDbCommand] Wywołanie CDbCommand::fetchAll() nie powiodło się: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. Wykonywana instrukcja SQL to: SELECT * FROM uzytkownicy WHERE user = :Login AND pass = :Haslo. Bound with :Login='koni'.
+in C:\xampp\htdocs\yiishop\protected\models\UzytkownicyModel.php (71)
+in C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php (22)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/25 23:34:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand nie zdołał wykonać instrukcji SQL: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM uzytkownicy WHERE user = :Login AND pass = :Haslo. Bound with :Login='koni'' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yiishop\protected\models\UzytkownicyModel.php(71): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php(22): UzytkownicyModel->WybierzUzytkownika()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): LogowanieController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logowanie')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiishop/index.php/logowanie
+HTTP_REFERER=http://localhost/yiishop/index.php/logowanie
+---
+2017/02/25 23:34:48 [error] [php] Undefined index: uzytkownik_id (C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php:25)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): LogowanieController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): LogowanieController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): LogowanieController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yiishop\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop/index.php/logowanie
+in C:\xampp\htdocs\yiishop\protected\controllers\LogowanieController.php (25)
+in C:\xampp\htdocs\yiishop\index.php (13)
+2017/02/25 23:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "user/konto".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/konto')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/user/konto
+HTTP_REFERER=http://localhost/yiishop/index.php/logowanie
+---
+2017/02/25 23:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "user/konto".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/konto')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop/index.php/user/konto
+HTTP_REFERER=http://localhost/yiishop/index.php/logowanie
+---
+2017/02/26 14:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Nie można ustalić żądania "logowanie".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logowanie')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiishop_copy/index.php/logowanie
+HTTP_REFERER=http://localhost/yiishop_copy/
+---
+2017/02/26 14:17:06 [error] [exception.CException] exception 'CException' with message 'Właściwość "UserIdentity.login" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\models\Users.php(55): CComponent->__get('login')
+#1 C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php(23): Users->WybierzUzytkownika()
+#2 C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:18:10 [error] [exception.CException] exception 'CException' with message 'Właściwość "UserIdentity.login" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\models\Users.php(49): CComponent->__get('login')
+#1 C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php(23): Users->WybierzUzytkownika()
+#2 C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:20:47 [error] [exception.CException] exception 'CException' with message 'Właściwość "LoginForm.username" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 C:\xampp\htdocs\yiishop_copy\protected\views\sklep\login.php(29): CActiveForm->textField(Object(LoginForm), 'username')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(71): CController->render('login', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/
+---
+2017/02/26 14:20:50 [error] [exception.CException] exception 'CException' with message 'Właściwość "LoginForm.username" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 C:\xampp\htdocs\yiishop_copy\protected\views\sklep\login.php(29): CActiveForm->textField(Object(LoginForm), 'username')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(71): CController->render('login', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/
+---
+2017/02/26 14:21:31 [error] [exception.CException] exception 'CException' with message 'Właściwość "LoginForm.password" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CRequiredValidator.php(58): CComponent->__get('password')
+#1 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CRequiredValidator->validateAttribute(Object(LoginForm), 'password')
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#3 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:22:14 [error] [exception.CException] exception 'CException' with message 'Właściwość "LoginForm.password" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CRequiredValidator.php(58): CComponent->__get('password')
+#1 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CRequiredValidator->validateAttribute(Object(LoginForm), 'password')
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#3 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:22:30 [error] [exception.CException] exception 'CException' with message 'Właściwość "LoginForm.password" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CRequiredValidator.php(58): CComponent->__get('password')
+#1 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CRequiredValidator->validateAttribute(Object(LoginForm), 'password')
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#3 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:22:33 [error] [exception.CException] exception 'CException' with message 'Właściwość "LoginForm.password" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CRequiredValidator.php(58): CComponent->__get('password')
+#1 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CRequiredValidator->validateAttribute(Object(LoginForm), 'password')
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#3 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:23:45 [error] [exception.CException] exception 'CException' with message 'Właściwość "UserIdentity.login" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php(23): CComponent->__get('login')
+#1 C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('haslo', Array)
+#3 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'haslo')
+#4 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:25:51 [error] [exception.CException] exception 'CException' with message 'Właściwość "UserIdentity.login" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\models\Users.php(49): CComponent->__get('login')
+#1 C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php(23): Users->WybierzUzytkownika()
+#2 C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('haslo', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'haslo')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:26:01 [error] [exception.CException] exception 'CException' with message 'Właściwość "UserIdentity.login" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\models\Users.php(49): CComponent->__get('login')
+#1 C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php(23): Users->WybierzUzytkownika()
+#2 C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('haslo', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'haslo')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:26:58 [error] [exception.CException] exception 'CException' with message 'Właściwość "UserIdentity.login" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\models\Users.php(49): CComponent->__get('login')
+#1 C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php(23): Users->WybierzUzytkownika()
+#2 C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('haslo', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'haslo')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:29:38 [error] [exception.CException] exception 'CException' with message 'Właściwość "UserIdentity.login" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php(23): CComponent->__get('login')
+#1 C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('haslo', Array)
+#3 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'haslo')
+#4 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:30:08 [error] [php] Missing argument 1 for CUserIdentity::__construct(), called in C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php on line 51 and defined (C:\xampp\htdocs\yii\framework\web\auth\CUserIdentity.php:43)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute()
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#2 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): LoginForm->validate()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+in C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php (51)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php (67)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 14:30:33 [error] [exception.CException] exception 'CException' with message 'Właściwość "UserIdentity.login" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php(23): CComponent->__get('login')
+#1 C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('haslo', Array)
+#3 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'haslo')
+#4 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(67): CModel->validate()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 14:34:55 [error] [exception.CException] exception 'CException' with message 'Właściwość "LoginForm.login" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('login')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(LoginForm), 'login')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(LoginForm), 'login', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(LoginForm), 'login', Array)
+#4 C:\xampp\htdocs\yiishop_copy\protected\views\sklep\login.php(29): CActiveForm->textField(Object(LoginForm), 'login')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(71): CController->render('login', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/
+---
+2017/02/26 14:34:57 [error] [exception.CException] exception 'CException' with message 'Właściwość "LoginForm.login" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2729): CComponent->__get('login')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2452): CHtml::resolveValue(Object(LoginForm), 'login')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1534): CHtml::activeInputField('text', Object(LoginForm), 'login', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(LoginForm), 'login', Array)
+#4 C:\xampp\htdocs\yiishop_copy\protected\views\sklep\login.php(29): CActiveForm->textField(Object(LoginForm), 'login')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(71): CController->render('login', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/
+---
+2017/02/26 14:36:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "logout".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('logout')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('logout')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/logout')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop_copy/index.php/site/logout
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 14:36:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "logout".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('logout')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('logout')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/logout')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop_copy/index.php/site/logout
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 14:37:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "logout".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('logout')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('logout')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/logout')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop_copy/index.php/site/logout
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 15:13:18 [error] [system.db.CDbCommand] Wywołanie CDbCommand::execute() nie powiodło się: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'admin' cannot be null. Wykonywana instrukcja SQL to: INSERT INTO uzytkownicy (user, pass, email, admin, data_dodania) VALUES (:User, :Pass, :Email, :Admin, :Data_dodania). Bound with :User='Konrad', :Pass='qwerty', :Email='konrad@gmail.com', :Admin=NULL, :Data_dodania='2017-02-26'.
+in C:\xampp\htdocs\yiishop_copy\protected\models\Users.php (58)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (38)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 15:13:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand nie zdołał wykonać instrukcji SQL: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'admin' cannot be null. The SQL statement executed was: INSERT INTO uzytkownicy (user, pass, email, admin, data_dodania) VALUES (:User, :Pass, :Email, :Admin, :Data_dodania). Bound with :User='Konrad', :Pass='qwerty', :Email='konrad@gmail.com', :Admin=NULL, :Data_dodania='2017-02-26'' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\models\Users.php(58): CDbCommand->execute()
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(38): Users->DodajUzytkownika()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/users/index
+---
+2017/02/26 15:48:46 [error] [exception.CException] exception 'CException' with message 'Klasa UsersController i jej zachowania nie posiadają metody lub domknięcia "hasErrors".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(37): CComponent->__call('hasErrors', Array)
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(37): UsersController->hasErrors()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/users/index
+---
+2017/02/26 16:13:56 [error] [php] Missing argument 2 for Users::LiczIleLoginowLubEmaili(), called in C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php on line 48 and defined (C:\xampp\htdocs\yiishop_copy\protected\models\Users.php:53)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/users/index
+in C:\xampp\htdocs\yiishop_copy\protected\models\Users.php (53)
+in C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php (48)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (38)
+2017/02/26 16:15:30 [error] [exception.CException] exception 'CException' with message 'Właściwość "UserIdentity.email" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php(48): CComponent->__get('email')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(38): UserIdentity->authenticateRegister()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/users/index
+---
+2017/02/26 16:43:30 [error] [php] Undefined variable: DaneProduktow (C:\xampp\htdocs\yiishop_copy\protected\views\sklep\index.php:3)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SklepController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SklepController->renderPartial()
+#2 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(109): SklepController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionRegister()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/sklep/register
+in C:\xampp\htdocs\yiishop_copy\protected\views\sklep\index.php (3)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php (109)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 16:43:43 [error] [php] Undefined variable: DaneProduktow (C:\xampp\htdocs\yiishop_copy\protected\views\sklep\index.php:3)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SklepController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SklepController->renderPartial()
+#2 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(109): SklepController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionRegister()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/sklep/register
+in C:\xampp\htdocs\yiishop_copy\protected\views\sklep\index.php (3)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php (109)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 16:44:07 [error] [php] Undefined variable: DaneProduktow (C:\xampp\htdocs\yiishop_copy\protected\views\sklep\index.php:3)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SklepController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SklepController->renderPartial()
+#2 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(109): SklepController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionRegister()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/sklep/register
+in C:\xampp\htdocs\yiishop_copy\protected\views\sklep\index.php (3)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php (109)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 16:44:35 [error] [php] Undefined variable: DaneProduktow (C:\xampp\htdocs\yiishop_copy\protected\views\sklep\index.php:3)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SklepController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SklepController->renderPartial()
+#2 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(109): SklepController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionRegister()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/sklep/register
+in C:\xampp\htdocs\yiishop_copy\protected\views\sklep\index.php (3)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php (109)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 16:45:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('index')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:06:31 [error] [php] Undefined variable: idUser (C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/users/index
+in C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php (36)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (9)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 17:09:57 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebApplication.isAuthenticated" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('isAuthenticated')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CModule->__get('isAuthenticated')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:10:38 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebApplication.username" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('username')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CModule->__get('username')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:10:41 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebApplication.username" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('username')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CModule->__get('username')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:11:18 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser.idUser" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('idUser')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CWebUser->__get('idUser')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:13:51 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser.ProviderUserKey" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('ProviderUserKey')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CWebUser->__get('ProviderUserKey')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:27:15 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser.ProviderUserKey" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('ProviderUserKey')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CWebUser->__get('ProviderUserKey')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:27:21 [error] [php] Undefined variable: user (C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute()
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#2 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(69): LoginForm->validate()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+in C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php (35)
+in C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php (69)
+2017/02/26 17:27:39 [error] [exception.CException] exception 'CException' with message 'Właściwość "Users.idUser" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php(35): CComponent->__get('idUser')
+#1 C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(69): CModel->validate()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 17:30:17 [error] [php] Undefined variable: users (C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php:33)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute()
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#2 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(69): LoginForm->validate()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+in C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php (33)
+in C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php (69)
+2017/02/26 17:33:07 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebApplication.users" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('users')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(71): CModule->__get('users')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/login')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/login
+---
+2017/02/26 17:53:08 [error] [php] Undefined index: idUser (C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute()
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#2 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(70): LoginForm->validate()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+in C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php (36)
+in C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php (55)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php (70)
+2017/02/26 17:53:24 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute()
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#2 C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php(70): LoginForm->validate()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SklepController->actionLogin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SklepController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SklepController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SklepController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/sklep/login
+in C:\xampp\htdocs\yiishop_copy\protected\components\UserIdentity.php (35)
+in C:\xampp\htdocs\yiishop_copy\protected\models\LoginForm.php (55)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\SklepController.php (70)
+2017/02/26 17:56:16 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser.ProviderUserKey" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('ProviderUserKey')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CWebUser->__get('ProviderUserKey')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:56:25 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser.ProviderUserKey" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('ProviderUserKey')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CWebUser->__get('ProviderUserKey')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:56:49 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser.ProviderUserKey" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('ProviderUserKey')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CWebUser->__get('ProviderUserKey')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:57:06 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser.ProviderUserKey" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('ProviderUserKey')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CWebUser->__get('ProviderUserKey')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:59:11 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser.ProviderUserKey" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('ProviderUserKey')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CWebUser->__get('ProviderUserKey')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 17:59:44 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser.ProviderUserKey" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('ProviderUserKey')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(9): CWebUser->__get('ProviderUserKey')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 18:00:01 [error] [php] Undefined variable: idUser (C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/users/index
+in C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php (36)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (11)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 18:00:15 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebApplication._id" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('_id')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(7): CModule->__get('_id')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 18:00:29 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebApplication.getId" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('getId')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(7): CModule->__get('getId')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 18:00:47 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser.getId" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('getId')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(7): CWebUser->__get('getId')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 18:00:50 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser.getId" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('getId')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(7): CWebUser->__get('getId')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 18:00:58 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebUser._id" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('_id')
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(7): CWebUser->__get('_id')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 18:03:47 [error] [php] Undefined variable: idUser (C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/users/index
+in C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php (36)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (10)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 18:04:58 [error] [exception.CException] exception 'CException' with message 'Właściwość "CWebApplication._id" nie jest zdefiniowana.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('_id')
+#1 C:\xampp\htdocs\yiishop_copy\protected\views\users\index.php(2): CModule->__get('_id')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(23): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php
+---
+2017/02/26 18:06:12 [error] [php] Array to string conversion (C:\xampp\htdocs\yiishop_copy\protected\views\users\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): UsersController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): UsersController->renderPartial()
+#2 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(23): UsersController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiishop_copy\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiishop_copy/index.php/users/index
+in C:\xampp\htdocs\yiishop_copy\protected\views\users\index.php (15)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (23)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:14:27 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (38)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:16:17 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (38)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:16:53 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (38)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:16:53 [error] [system.db.CDbCommand] Wywołanie CDbCommand::execute() nie powiodło się: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1. Wykonywana instrukcja SQL to: UPDATE adresy SET imie = :imie, nazwisko = :nazwisko, miejscowosc = :miejscowosc, ulica = :ulica, nr_domu = :nr_domu, nr_lokalu = :nr_lokalu, kod_pocztowy = :kod_pocztowy WHERE idUser = :idUser). Bound with :imie='Arek', :nazwisko='Łowca', :miejscowosc='Lublin', :ulica='Nowomiejska', :nr_domu='2', :nr_lokalu=NULL, :kod_pocztowy='22-400', :idUser='2'.
+in C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php (81)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (42)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:16:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand nie zdołał wykonać instrukcji SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1. The SQL statement executed was: UPDATE adresy SET imie = :imie, nazwisko = :nazwisko, miejscowosc = :miejscowosc, ulica = :ulica, nr_domu = :nr_domu, nr_lokalu = :nr_lokalu, kod_pocztowy = :kod_pocztowy WHERE idUser = :idUser). Bound with :imie='Arek', :nazwisko='Łowca', :miejscowosc='Lublin', :ulica='Nowomiejska', :nr_domu='2', :nr_lokalu=NULL, :kod_pocztowy='22-400', :idUser='2'' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php(81): CDbCommand->execute()
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(42): AdresModel->AktualizujAdres()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/users/index
+---
+2017/02/26 19:18:17 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (38)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:18:17 [error] [system.db.CDbCommand] Wywołanie CDbCommand::execute() nie powiodło się: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1. Wykonywana instrukcja SQL to: UPDATE adresy SET imie = :imie, nazwisko = :nazwisko, miejscowosc = :miejscowosc, ulica = :ulica, nr_domu = :nr_domu, nr_lokalu = :nr_lokalu, kod_pocztowy = :kod_pocztowy WHERE idUser = :idUser). Bound with :imie='Arek', :nazwisko='Łowca', :miejscowosc='Lublin', :ulica='Nowomiejska', :nr_domu='2', :nr_lokalu=NULL, :kod_pocztowy='22-400', :idUser='2'.
+in C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php (81)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (42)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:18:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand nie zdołał wykonać instrukcji SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1. The SQL statement executed was: UPDATE adresy SET imie = :imie, nazwisko = :nazwisko, miejscowosc = :miejscowosc, ulica = :ulica, nr_domu = :nr_domu, nr_lokalu = :nr_lokalu, kod_pocztowy = :kod_pocztowy WHERE idUser = :idUser). Bound with :imie='Arek', :nazwisko='Łowca', :miejscowosc='Lublin', :ulica='Nowomiejska', :nr_domu='2', :nr_lokalu=NULL, :kod_pocztowy='22-400', :idUser='2'' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php(81): CDbCommand->execute()
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(42): AdresModel->AktualizujAdres()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/users/index
+---
+2017/02/26 19:18:36 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (38)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:18:36 [error] [system.db.CDbCommand] Wywołanie CDbCommand::execute() nie powiodło się: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1. Wykonywana instrukcja SQL to: UPDATE adresy SET imie = :imie, nazwisko = :nazwisko, miejscowosc = :miejscowosc, ulica = :ulica, nr_domu = :nr_domu, nr_lokalu = :nr_lokalu, kod_pocztowy = :kod_pocztowy WHERE idUser = :idUser). Bound with :imie='Arek', :nazwisko='Łowca', :miejscowosc='Lublin', :ulica='Nowomiejska', :nr_domu='2', :nr_lokalu=NULL, :kod_pocztowy='22-400', :idUser='2'.
+in C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php (81)
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (42)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:18:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand nie zdołał wykonać instrukcji SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1. The SQL statement executed was: UPDATE adresy SET imie = :imie, nazwisko = :nazwisko, miejscowosc = :miejscowosc, ulica = :ulica, nr_domu = :nr_domu, nr_lokalu = :nr_lokalu, kod_pocztowy = :kod_pocztowy WHERE idUser = :idUser). Bound with :imie='Arek', :nazwisko='Łowca', :miejscowosc='Lublin', :ulica='Nowomiejska', :nr_domu='2', :nr_lokalu=NULL, :kod_pocztowy='22-400', :idUser='2'' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yiishop_copy\protected\models\AdresModel.php(81): CDbCommand->execute()
+#1 C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php(42): AdresModel->AktualizujAdres()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiishop_copy/index.php/users/index
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/users/index
+---
+2017/02/26 19:19:31 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (38)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:19:47 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (38)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:20:00 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (38)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:21:12 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (37)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:21:16 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (37)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:21:23 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (37)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:21:28 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (37)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:21:53 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (37)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:25:36 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (26)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:30:30 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (38)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:31:21 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (39)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:31:26 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (39)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:34:26 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (39)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:42:26 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (39)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:44:44 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:50:33 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:50:35 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:51:52 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:51:54 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:52:05 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:52:39 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (39)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:54:59 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:56:39 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:57:33 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:57:58 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:59:17 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 19:59:51 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:00:24 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:00:35 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:00:52 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:01:14 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:01:38 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:01:56 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:02:05 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:03:18 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:03:48 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:04:13 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (40)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:04:44 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (43)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:05:08 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (43)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:05:31 [warning] [application] Ustawianie niebezpiecznego (ang. unsafe) atrybutu "nr_lokalu" klasy "AdresModel" nie powiodło się
+in C:\xampp\htdocs\yiishop_copy\protected\controllers\UsersController.php (43)
+in C:\xampp\htdocs\yiishop_copy\index.php (13)
+2017/02/26 20:34:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "kategorie".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('kategorie')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('kategorie')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sklep/kategorie')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiishop_copy\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiishop_copy/index.php/sklep/kategorie
+HTTP_REFERER=http://localhost/yiishop_copy/index.php/sklep/register
+---
