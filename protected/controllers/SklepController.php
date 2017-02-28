@@ -65,7 +65,17 @@ class SklepController extends Controller
 			if($model->validate() && $model->login())
 				//echo 'tak';
 				Yii::app()->session['zalogowany'] = 'tak';
-				$this->redirect(Yii::app()->user->returnUrl);
+				//Yii::app()->user->getState('admin');
+				if(Yii::app()->user->getState('admin') == '1' )
+				{
+					//echo Yii::app()->user->getState('admin'); exit();
+					$this->redirect(array('admin/index'));
+				}
+				else
+				{
+					$this->redirect(Yii::app()->user->returnUrl);
+				}
+				
 		}
 		// display the login form
 		$this->render('login',array('model'=>$model));

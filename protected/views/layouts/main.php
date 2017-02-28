@@ -56,6 +56,7 @@
                             'items'=>array(
                             	array('label'=>'Strona Główna', 'url'=>array('/sklep/index')),
                             	array('label'=>'Edycja konta', 'url'=>array('/users/index')),
+                            	array('label'=>'Dodaj produkt', 'url'=>array('/admin/dodaj'), 'visible'=>Yii::app()->user->getState('admin')),
 								array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/sklep/logout'))
                             ),
                         ));                     

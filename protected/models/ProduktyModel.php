@@ -22,8 +22,8 @@ class ProduktyModel extends CFormModel
 	public function rules()
 	{
 		return array(
-			array('produkt_nazwa', 'produkt_cena', 'required'),
-			array('produkt_nazwa', 'lenght', 'max' => 255),
+			array('produkt_nazwa, produkt_opis, produkt_cena', 'required'),
+			array('produkt_nazwa', 'length', 'max' => 255),
 		);
 	}
 
@@ -44,6 +44,14 @@ class ProduktyModel extends CFormModel
 	public function PobierzProdukty()
 	{
 		$WybierzProdukty = Yii::app()->db->createCommand('SELECT produkty.idProdukty, nazwa, opis, cena, data_dodania, url FROM produkty INNER JOIN obrazy ON produkty.idProdukty = obrazy.idProdukty');
+		$DaneProduktow = $WybierzProdukty->query();
+
+		return $DaneProduktow;
+	}
+
+	public function PobierzProduktyBezObrazka()
+	{
+		$WybierzProdukty = Yii::app()->db->createCommand('SELECT produkty.idProdukty, nazwa, opis, cena, data_dodania FROM produkty');
 		$DaneProduktow = $WybierzProdukty->query();
 
 		return $DaneProduktow;
@@ -91,6 +99,8 @@ class ProduktyModel extends CFormModel
 		$DodajKategorie->bindValue(':ProduktCena', $this->produkt_cena, PDO::PARAM_STR);
 		$DodajKategorie->bindValue(':ProduktData', $this->produkt_data_dodania, PDO::PARAM_STR);
 		$DodajKategorie->execute();
+
+		return true;
 	}
 
 	public function AktualizujProdukt($id)

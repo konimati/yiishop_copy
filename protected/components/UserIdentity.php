@@ -16,6 +16,8 @@ class UserIdentity extends CUserIdentity
 	 * @return boolean whether authentication succeeds.
 	 */
 	private $_id;
+	private $_state;
+
 
 	public function authenticate()
 	{
@@ -34,7 +36,10 @@ class UserIdentity extends CUserIdentity
 			{
 				foreach ($info_user as $key) {
 					$this->_id=$key['idUser'];
+					$this->setState('admin', $key['admin']); 
+					//Yii::app()->session['admin'] = $key['admin']; 
 				}
+
 				unset($info_user);
 				$this->errorCode=self::ERROR_NONE;
 			}else{
@@ -51,6 +56,11 @@ class UserIdentity extends CUserIdentity
         return $this->_id;
     }
 
+ //    public function setState($name,$value)
+	// {
+	//     $this->_state[$name]=$value;
+	// }
+ 
 
 
 	
